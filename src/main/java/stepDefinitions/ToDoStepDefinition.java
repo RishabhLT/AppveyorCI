@@ -36,8 +36,8 @@ public class ToDoStepDefinition {
 		capability.setCapability(CapabilityType.VERSION, version);
 		capability.setCapability(CapabilityType.PLATFORM, os);
 		capability.setCapability("screen_resolution", res);
-		capability.setCapability("build", "Cucumber-Selenium-TestNG Test");
-		capability.setCapability("name", "Cucumber-Selenium-TestNG");
+		capability.setCapability("build", "AppveyorCI Sample Demo");
+		capability.setCapability("name", "AppveyorCI Sample Test");
 		capability.setCapability("network", true);
 		capability.setCapability("video", true);
 		capability.setCapability("console", true);

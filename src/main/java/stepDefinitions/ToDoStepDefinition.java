@@ -57,7 +57,7 @@ public class ToDoStepDefinition {
 
 	@Then("^select second item$")
 	public void select_second_item() {
-		driver.findElement(By.name("li2")).click();
+		driver.findElement(By.name("li10")).click();
 	}
 
 	@Then("^add new item$")
